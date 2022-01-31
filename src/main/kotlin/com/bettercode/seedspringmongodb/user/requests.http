@@ -1,0 +1,14 @@
+### Create user
+POST localhost:8080/users
+Content-Type: application/json
+
+{
+  "name": {
+    "first": "John",
+    "last": "Doe"
+  },
+  "birth": "2022-01-01T00:00:00Z"
+}
+
+### Find all users
+GET localhost:8080/users
